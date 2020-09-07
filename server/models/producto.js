@@ -26,6 +26,10 @@ var productoSchema = new Schema({
         ref: categoria,
         required: true
     },
+    img: {
+        type: String,
+        required: false
+    },
     usuario: {
         type: Schema.Types.ObjectId,
         ref: usuario
